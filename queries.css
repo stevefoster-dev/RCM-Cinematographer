@@ -1,0 +1,275 @@
+@media only screen and (max-width: 3000px) {
+  .openingStatement {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 2350px) {
+  .openingStatement {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 2100px) {
+  .openingStatement {
+    margin-left: 15%;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .openingStatement {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+
+/* BIG TABLET TO 1200PX (WIDTHS SMALLER THAN 1140PX ROW) */
+@media only screen and (max-width: 1700px) {
+  .bio {
+    height: 950px;
+  }
+  .openingStatement {
+    margin-left: 20%;
+    width: 60%;
+  }
+}
+
+/* BIG TABLET TO 1200PX (WIDTHS SMALLER THAN 1140PX ROW) */
+@media only screen and (max-width: 1350px) {
+  .openingStatement {
+    margin-left: 10%;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .listItem {
+    width: 550px;
+    font-size: 1.1rem;
+  }
+  #listHeading {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  #bioPic {
+    margin-top: 20px;
+    width: 300px;
+    height: 318px;
+  }
+}
+
+/* SMALL TABLET TO BIG TABLET: 768-1023PX */
+@media only screen and (max-width: 1000px) {
+  .listItem {
+    width: 450px;
+    font-size: 1.1rem;
+  }
+  #listHeading {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  #bioPic {
+    margin-top: 40px;
+    width: 300px;
+    height: 318px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .bioRow {
+    padding-right: 200px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .bio {
+    height: 1420px;
+  }
+  .bioRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px;
+    margin: 0;
+  }
+  #pic {
+    order: 1;
+    margin-right: 0%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -30%;
+  }
+  .listItem {
+    width: 550px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 2.2rem;
+  }
+  #rentalContact {
+    order: 3;
+  }
+
+  .openingStatement {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .socialLinks {
+    display: none;
+  }
+  footer {
+    padding-top: 50px;
+  }
+}
+
+/* SMALL PHONES TO SMALL TABLETS: 480-767PX */
+@media only screen and (max-width: 690px) {
+  .bio {
+    height: 1500px;
+  }
+  .bioRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px;
+    margin: 0;
+  }
+  #pic {
+    order: 1;
+    margin-right: 0%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -30%;
+  }
+  .listItem {
+    width: 450px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 1.8rem;
+  }
+  #rentalContact {
+    order: 3;
+  }
+
+  .openingStatement {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .socialLinks {
+    display: none;
+  }
+  footer {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bio {
+    height: 1550px;
+  }
+  .openingStatement {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #pic {
+    order: 1;
+    margin-right: -10%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -50%;
+  }
+  .listItem {
+    width: 450px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 1.8rem;
+  }
+
+  .socialLinks {
+    display: none;
+  }
+
+  footer {
+    background-color: #e1dcd2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .bio {
+    height: 1500px;
+  }
+  #pic {
+    order: 1;
+    margin-right: -40px;
+  }
+  .openingStatement {
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -40%;
+  }
+  .listItem {
+    width: 400px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .socialLinks {
+    display: none;
+  }
+}
+
+/* SMALL PHONES: 0-480PX */
+@media only screen and (max-width: 500px) {
+  .bio {
+    height: 1500px;
+  }
+  #pic {
+    order: 1;
+    margin-right: -40px;
+  }
+  .openingStatement {
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -60%;
+  }
+  .listItem {
+    width: 400px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .socialLinks {
+    display: none;
+  }
+}

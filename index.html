@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="https://use.typekit.net/abq1jnh.css" />
     <link rel="stylesheet" href="https://use.typekit.net/abq1jnh.css" />
+    <link rel="stylesheet" href="queries.css" />
 
     <title>Ryan C Mooney | Cinematographer | Brooklyn, NYC</title>
     <link rel="icon" href="imgs/RCMfavicon.jpeg" type="image/x-icon" />
@@ -255,20 +256,19 @@
         /> -->
         <!-- TITLE STATEMENT -->
         <h2 class="openingStatement">
-          I am a <span>cinematographer</span> and
+          I am a cinematographer and
           <a
             id="hiddenRental"
             href="https://www.sharegrid.com/p/ryan_mooney?type=rent"
             >camera owner</a
           >
-          based in Brooklyn NYC, and I want to shoot
-          <span><em>your</em></span> next <span>film</span> or
-          <span>music video</span> that gets into major festivals!
+          based in Brooklyn NYC, and I want to shoot your next film or music
+          video that gets into major festivals!
         </h2>
         <!-- END TITLE STATEMENT -->
         <div class="row bioRow">
           <div class="col-6 d-flex justify-content-end">
-            <div>
+            <div id="pic">
               <img
                 id="bioPic"
                 alt="self2.jpg"
@@ -276,22 +276,24 @@
                 itemprop="image"
                 src="https://static.wixstatic.com/media/736402_d84bd35405774b2592db1d5c52121c0e~mv2.jpg/v1/crop/x_116,y_0,w_3657,h_3888/fill/w_316,h_336,al_c,q_90/self2.webp"
               />
-              <h4><strong>Partial equipment list:</strong></h4>
-              <a
-                id="rentalLink"
-                href="https://www.sharegrid.com/p/ryan_mooney?type=rent"
-                >RCM Equipment Rentals</a
-              >
-              <h4><strong>Contact:</strong></h4>
-              <a
-                id="emailLink"
-                class="auto-generated-link"
-                data-auto-recognition="true"
-                data-content="ryan.c.mooney@gmail.com"
-                href="mailto:ryan.c.mooney@gmail.com"
-                data-type="mail"
-                >ryan.c.mooney@gmail.com</a
-              >
+              <div id="rentalContact">
+                <h4><strong>Partial equipment list:</strong></h4>
+                <a
+                  id="rentalLink"
+                  href="https://www.sharegrid.com/p/ryan_mooney?type=rent"
+                  >RCM Equipment Rentals</a
+                >
+                <h4><strong>Contact:</strong></h4>
+                <a
+                  id="emailLink"
+                  class="auto-generated-link"
+                  data-auto-recognition="true"
+                  data-content="ryan.c.mooney@gmail.com"
+                  href="mailto:ryan.c.mooney@gmail.com"
+                  data-type="mail"
+                  >ryan.c.mooney@gmail.com</a
+                >
+              </div>
             </div>
           </div>
           <div class="col-6 d-flex justify-content-start">
@@ -343,45 +345,81 @@
     <div class="socialLinks">
       <!-- INSTAGRAM -->
       <div class="rowInsta">
-        <img
-          id="instagramPortal"
-          alt="Black Instagram Icon"
-          data-type="image"
-          itemprop="image"
-          src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_22,h_22,al_c,q_95/01c3aff52f2a4dffa526d7a9843d46ea.webp"
-          style="width: 22px; height: 22px; object-fit: cover;"
-        />
+        <a href="https://www.instagram.com/ryancmooney/"
+          ><img
+            id="instagramPortal"
+            alt="Black Instagram Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_22,h_22,al_c,q_95/01c3aff52f2a4dffa526d7a9843d46ea.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
       </div>
       <!-- END INSTAGRAM -->
 
       <!-- VIMEO -->
       <div class="rowVimeo">
-        <img
-          id="vimeoPortal"
-          alt="Black Vimeo Icon"
-          data-type="image"
-          itemprop="image"
-          src="https://static.wixstatic.com/media/dbcb9dab6c244854b4146cde5958b170.png/v1/fill/w_22,h_22,al_c,q_95/dbcb9dab6c244854b4146cde5958b170.webp"
-          style="width: 22px; height: 22px; object-fit: cover;"
-        />
+        <a href="https://vimeo.com/282053479"
+          ><img
+            id="vimeoPortal"
+            alt="Black Vimeo Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/dbcb9dab6c244854b4146cde5958b170.png/v1/fill/w_22,h_22,al_c,q_95/dbcb9dab6c244854b4146cde5958b170.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
       </div>
       <!-- END VIMEO -->
 
       <!-- FACEBOOK -->
       <div class="rowFacebook">
-        <img
-          id="facebookPortal"
-          alt="Black Facebook Icon"
-          data-type="image"
-          itemprop="image"
-          href="https://www.facebook.com/ryancmooney"
-          src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_22,h_22,al_c,q_95/0fdef751204647a3bbd7eaa2827ed4f9.webp"
-          style="width: 22px; height: 22px; object-fit: cover;"
-        />
+        <a href="https://www.facebook.com/ryancmooney"
+          ><img
+            id="facebookPortal"
+            alt="Black Facebook Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_22,h_22,al_c,q_95/0fdef751204647a3bbd7eaa2827ed4f9.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
       </div>
       <!-- END FACEBOOK -->
     </div>
     <!-- END FIXED SOCIAL MEDIA LINK BUTTONS ON SIDE OF PAGE -->
+
+    <footer>
+      <div class="footerSocial d-flex justify-content-center">
+        <a href="https://www.instagram.com/ryancmooney/"
+          ><img
+            id="footerInsta"
+            alt="Black Instagram Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_22,h_22,al_c,q_95/01c3aff52f2a4dffa526d7a9843d46ea.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
+
+        <a href="https://vimeo.com/282053479"
+          ><img
+            id="footerVimeo"
+            alt="Black Vimeo Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/dbcb9dab6c244854b4146cde5958b170.png/v1/fill/w_22,h_22,al_c,q_95/dbcb9dab6c244854b4146cde5958b170.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
+
+        <a href="https://www.facebook.com/ryancmooney"
+          ><img
+            id="footerFacebook"
+            alt="Black Facebook Icon"
+            data-type="image"
+            itemprop="image"
+            src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_22,h_22,al_c,q_95/0fdef751204647a3bbd7eaa2827ed4f9.webp"
+            style="width: 22px; height: 22px; object-fit: cover;"
+        /></a>
+      </div>
+    </footer>
 
     <script type="text/javascript" src="app.js"></script>
   </body>
