@@ -28,6 +28,9 @@ body {
 
 .logo img {
   width: 80%;
+  height: auto;
+  margin: auto;
+  max-width: 100%;
 }
 
 .containerMainVid {
