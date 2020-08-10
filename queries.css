@@ -288,3 +288,37 @@
     display: none;
   }
 }
+@media only screen and (max-width: 460px) {
+  .bio {
+    height: 1500px;
+  }
+  #pic {
+    order: 1;
+    margin-right: -40px;
+  }
+  .openingStatement {
+    font-size: 2rem;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .list {
+    order: 2;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: -65%;
+  }
+  .listItem {
+    width: 400px;
+    font-size: 1.2rem;
+  }
+  #listHeading {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  #hiddenRental {
+    font-size: 2rem;
+  }
+  .socialLinks {
+    display: none;
+  }
+}
