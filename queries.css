@@ -76,11 +76,17 @@
     width: 300px;
     height: 318px;
   }
+  .socialLinks {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 900px) {
   .bioRow {
     padding-right: 200px;
+  }
+  .socialLinks {
+    display: none;
   }
 }
 
@@ -125,6 +131,9 @@
   }
   footer {
     padding-top: 50px;
+  }
+  .socialLinks {
+    display: none;
   }
 }
 
@@ -236,6 +245,9 @@
     font-size: 1.6rem;
     font-weight: 500;
   }
+  #hiddenRental {
+    font-size: 2rem;
+  }
   .socialLinks {
     display: none;
   }
@@ -268,6 +280,9 @@
   #listHeading {
     font-size: 1.6rem;
     font-weight: 500;
+  }
+  #hiddenRental {
+    font-size: 2rem;
   }
   .socialLinks {
     display: none;
