@@ -9,6 +9,7 @@ body {
   font-family: neue-haas-grotesk-display, sans-serif;
   font-weight: 400;
   font-style: bold;
+  overflow-x: hidden;
 }
 
 .logo {
