@@ -26,12 +26,12 @@ body {
   position: relative;
   width: 100%;
   height: 800px;
-  // background-color: #e1dcd2;
-  background-color: red;
+  background-color: #e1dcd2;
 }
 
 .bioRow {
   margin-top: 60px;
+  padding-right: 250px;
 }
 
 #brackets {
@@ -57,11 +57,10 @@ body {
 .listItem {
   width: 600px;
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 1.2rem;
-  padding-bottom: 10px;
-  color: red;
+  padding-bottom: 14px;
 }
 
 .socialLinks {
@@ -76,9 +75,9 @@ body {
 }
 
 #bioPic {
-  margin-top: 25px;
-  width: 316px;
-  height: 336px;
+  margin-top: 10px;
+  width: 350px;
+  height: 370px;
 }
 
 h4 {
